@@ -18,8 +18,6 @@ for  (var i = 1; i <= number; i++ )
 
 factorial = factorial * i ;
 
-
-
 return factorial ;
 
 }
@@ -27,7 +25,7 @@ return factorial ;
 // Function and Forloop ar maddhome factorial framwork toiri korlam.
 
 
-var result = factorial (24)
+var result = factorial (4)
 
 console.log (result)
 
