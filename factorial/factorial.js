@@ -14,11 +14,16 @@ function factorial (number) {
 
 //    Ekhane forloop ar babohor korbo 
 
+// Eta foor loop ar stracture
+
 for  (var i = 1; i <= number; i++ ) 
+
+// End 
 
 factorial = factorial * i ;
 
 return factorial ;
+
 
 }
 
