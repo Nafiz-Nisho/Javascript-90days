@@ -35,6 +35,39 @@
 
 //--------------------------------------------------------------------------------
 
+function fibonacci (n){
 
+  // using arry 
 
+  var fibo = [0, 1];
 
+  // END 
+
+  // using for loop 
+
+  for (var i = 2; i <= n; i++) {
+
+//  using fibo nacci equation 
+
+   // x9	= x9−1 + x9−2
+
+   fibo[i] = fibo [i-1] + fibo [i-2] ;
+
+  //  X ta holo 'fibo' 9 ta holo 'i' jeta amra call korbo. r baki ta sutrer dike takalei buzte parbo.
+
+  }
+
+   return fibo ;
+
+}
+
+var result = fibonacci (7)
+
+console.log(result)
+
+// Output 
+
+  // 0, 1, 1,  2,
+  // 3, 5, 8, 13
+
+  
