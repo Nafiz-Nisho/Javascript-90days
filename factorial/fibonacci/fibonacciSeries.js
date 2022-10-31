@@ -17,14 +17,12 @@ function fibonaciSeries (n) {
  else {
 
     // calculate arry n Element
- 
- var fibonacciRecursive = fibonaciSeries (n-1)
 
- var fiboALL = fibonaciSeries (n-1)
+ var fiboALL = fibonaciSeries (n - 1)
 
  //   using fibonacci equation
 
- var nextelement = fiboALL [ n-1 ] + fiboALL [n-2]
+ var nextelement = fiboALL [ n - 1 ] + fiboALL [n - 2]
 
   fiboALL.push (nextelement)
 
@@ -33,7 +31,6 @@ function fibonaciSeries (n) {
  }
 
 }
-
 var result = fibonaciSeries (10)
 
 console.log(result)
@@ -45,3 +42,4 @@ console.log(result)
 //     5, 8, 13, 21, 34,
 //    55
 //  ]
+
