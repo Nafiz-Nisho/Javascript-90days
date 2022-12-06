@@ -2,6 +2,20 @@
 // যদি (স্কোর >= 90) গ্রেড = 'A'; নিম্নোক্ত উদাহরণটি প্রদর্শন করে সংখ্যাটি ধনাত্মক যদি সংখ্যার মান 0 এর থেকে বেশি বা সমান হয়। সংখ্যার মান 0 এর কম হলে, এটি সংখ্যা নেতিবাচক প্রদর্শন করে।
 
 
+
+let mark = 675;
+
+if( mark >= 675 ){
+    console.log("passed")
+}
+else{
+    console.log("fail")
+}
+
+
+// another example:
+
+
 var biscouitPrice = 5
 
 if (biscouitPrice < 10) {
