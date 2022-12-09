@@ -1,11 +1,34 @@
 
 
+var  pointer = [12,24,22,344]
 
-let mark = 677;
+if (i = 0, pointer+pointer){
 
-if( mark >= 675 ){
-    console.log("passed")
+console.log("this fanction of a database")
 }
+
 else{
-    console.log("fail")
+
+    console.log("this poitner of function")
+
 }
+
+if (a % b) {
+    console.log("this is sum")
+} else { 
+    console.log( "this is not sum " 
+    
+    )
+}
+var pointer2 = [77,81,123,3030]
+
+if ( a - b ){
+console.log("this is - and sum")
+
+}
+
+else {
+
+    console.log("this is not - not avobe")
+}
+
